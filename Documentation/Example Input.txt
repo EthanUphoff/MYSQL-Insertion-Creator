@@ -1,3 +1,4 @@
+Database name: uphof012
 Table name: testing
 EMPLOYEE- TEXT
 MANAGER- TEXT

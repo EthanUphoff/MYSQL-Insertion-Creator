@@ -24,7 +24,9 @@ rl.question('Please paste file location: ', (answer) => {
 
   lineReader.on('line', function (line) {
     var regex = /(\S+)-(\s)(.*)/i
-    if (line.includes('Table name: ')) {
+    if (line.includes('Database name: ')) {
+      databasename = line.replace(/Database name:(\s)/g, '')
+    } else if (line.includes('Table name: ')) {
       tablename = line.replace(/Table name:(\s)/g, '')
     } else if (line !== '') {
       let matches = line.match(regex)
