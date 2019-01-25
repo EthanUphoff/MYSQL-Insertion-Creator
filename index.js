@@ -56,7 +56,7 @@ rl.question('Please paste file location: ', (answer) => {
           }
         })
         finalinput = '(' + finalinput.slice(0, -2) + ')'
-        let finaloutput = 'INSERT INTO ' + tablename + ' ' + finalcolumns + ' VALUES ' + finalinput + '\n'
+        let finaloutput = 'INSERT INTO ' + tablename + ' ' + finalcolumns + ' VALUES ' + finalinput + ';\n'
 
         fs.appendFile('output.txt', finaloutput, function (err) {
           if (err) throw err
