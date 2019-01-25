@@ -1,0 +1,13 @@
+Table name: workers
+EMPLOYEE- Roberts
+MANAGER- Price
+JOB- Ticket Agent
+SALARY- 12000
+YEARS_WORKED- 0
+
+EMPLOYEE- Ruskin
+MANAGER- Price
+JOB- Ticket Agent
+SALARY- 13200
+YEARS_WORKED- 1.5
+

@@ -1,0 +1,2 @@
+INSERT INTO workers (EMPLOYEE, MANAGER, JOB, SALARY, YEARS_WORKED) VALUES ('Roberts', 'Price', 'Ticket Agent', 12000, 0)
+INSERT INTO workers (EMPLOYEE, MANAGER, JOB, SALARY, YEARS_WORKED) VALUES ('Ruskin', 'Price', 'Ticket Agent', 13200, 1.5)
