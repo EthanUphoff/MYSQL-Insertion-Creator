@@ -38,7 +38,7 @@ YEARS_WORKED- 2
 
 EMPLOYEE- Price
 MANAGER- Porter
-JOB- Ticket Agent MANAGER?
+JOB- Ticket Agent Manager
 SALARY- 21296
 YEARS_WORKED- 3
 
