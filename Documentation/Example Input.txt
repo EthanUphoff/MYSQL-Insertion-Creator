@@ -1,4 +1,10 @@
-Table name: workers
+Table name: testing
+EMPLOYEE- TEXT
+MANAGER- TEXT
+JOB- TEXT
+SALARY- FLOAT
+YEARS_WORKED- FLOAT
+
 EMPLOYEE- Roberts
 MANAGER- Price
 JOB- Ticket Agent
@@ -11,3 +17,38 @@ JOB- Ticket Agent
 SALARY- 13200
 YEARS_WORKED- 1.5
 
+EMPLOYEE- Raphael
+MANAGER- Price
+JOB- Ticket Agent
+SALARY- 13200
+YEARS_WORKED- 1.5
+
+EMPLOYEE- Rayburn
+MANAGER- Powell
+JOB- Baggage Handler
+SALARY- 14520
+YEARS_WORKED- 2
+
+EMPLOYEE- Rice
+MANAGER- Porter
+JOB- Flight Mechanic
+SALARY- 21780
+YEARS_WORKED- 2
+
+EMPLOYEE- Price
+MANAGER- Porter
+JOB- Ticket Agent MANAGER?
+SALARY- 21296
+YEARS_WORKED- 3
+
+EMPLOYEE- Powell
+MANAGER- Porter
+JOB- Head of Ground Crews
+SALARY- 21296
+YEARS_WORKED- 3
+
+EMPLOYEE- Porter
+MANAGER- Porter
+JOB- Chief of Operations
+SALARY- 32210.2
+YEARS_WORKED- 5
