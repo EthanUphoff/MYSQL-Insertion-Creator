@@ -49,7 +49,15 @@ rl.question('Please paste file location: ', (answer) => {
       } else {
         let finalcolumns = '(' + columns.toString().replace(/,/g, ', ') + ')'
         inputs.forEach(function (item, index, array) {
-          if (item.match(/(\d+)/g) != null || item.match(/(\d+)\.(\d*)/g) != null || item.match(/(\d*)\.(\d+)/g) != null) {
+          var digit = item.match(/(\d+)/)
+          var float1 = item.match(/(\d+)\.(\d*)/)
+          var float2 = item.match(/(\d*)\.(\d+)/)
+          digit = digit != null && digit[0] === item
+          float1 = float1 != null && float1[0] === item
+          float2 = float2 != null && float2[0] === item
+          if (digit || float1 || float2) {
+            console.log(item.match(/(\d+)/))
+            console.log(item)
             finalinput = finalinput + item + ', '
           } else {
             finalinput = finalinput + "'" + item + "', "
